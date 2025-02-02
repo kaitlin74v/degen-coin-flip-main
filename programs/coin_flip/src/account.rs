@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 #[account]
 #[derive(Default)]
 pub struct GlobalPool {
-    pub super_admin: Pubkey, // 32
+    pub super_admin: Pubkey, // 3223
     pub total_round: u64,    // 8
 }
 
